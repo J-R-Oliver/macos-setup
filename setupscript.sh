@@ -3,6 +3,7 @@
 # Install Homebrew
 echo 'Installing HomeBrew...'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" &&
+ brew analytics off
 
 # Install MacOS Applications
 
@@ -12,6 +13,7 @@ brew cask install slack
 brew cask install iterm2 
 brew cask install google-chrome
 brew cask install postman 
+brew cask install gimp
 
 # Install Brew Packages
 

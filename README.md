@@ -9,6 +9,7 @@ Repository for MacOS setup scripts and notes.
 - [iTerm2](https://iterm2.com)
 - [Google Chrome](https://www.google.com/chrome/) 
 - [Postman](https://www.postman.com) 
+- [GIMP](https://www.gimp.org)
 
 
 ## Brew Packages 
