@@ -31,6 +31,18 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Change Oh-My-ZHS theme to ys
 sed -i '' 's/robbyrussell/ys/' ~/.zshrc
 
+# Install ZSH Plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+sed -i '' 's/plugins=(git)/plugins=(git zsh-autosuggestions)/' ~/.zshrc
+brew install zsh-syntax-highlighting
+echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
+
+# 
+echo 'Please change the following settings in iTerm \n'
+echo 'iTerm2 -> Preferences -> Profiles -> Window -> Style -> No Title Bar'
+echo 'iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confirm closing multiple sessions [Off]'
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
 # Set git username and email
 echo 'Setting up git...'
 read -p 'Please enter a global username: ' uservar

@@ -21,6 +21,11 @@ Repository for MacOS setup scripts and notes.
 - [zsh](https://www.zsh.org/)
 - [oh-my-zsh](https://ohmyz.sh/)
 
+## ZSH Plugins
+
+- [Oh My Zsh Auto suggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+- [ZSH Syntax Highlighting](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961)
+
 
 ## Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
 
@@ -33,6 +38,15 @@ compaudit | xargs chmod g-w,o-w
 ## Change Oh My ZSH Theme
 
 The script changes the theme to [ys](https://blog.ysmood.org/my-ys-terminal-theme/).
+
+## Change iTerm Settings
+
+Your unable to change the default settings for iTerm programmatically. The following changes will need done through the GUI.
+
+```
+iTerm2 -> Preferences -> Profiles -> Window -> Style -> No Title Bar
+iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confirm closing multiple sessions [Off]
+```
 
 ## Script
 
