@@ -58,5 +58,6 @@ chmod +x setupscript.sh
 ## Potential Improves
 
 - Move from iTerm2 to modified Terminal layout.
+- Set background.
 - Set Launchpad layout.
 - Set Dock layout.
