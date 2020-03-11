@@ -25,6 +25,9 @@ brew install tree
 brew install zsh zsh-completions 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
+# compaudit | xargs chmod g-w,o-w
+
 # Change Oh-My-ZHS theme to ys
 sed -i '' 's/robbyrussell/ys/' ~/.zshrc
 

@@ -21,6 +21,15 @@ Repository for MacOS setup scripts and notes.
 - [zsh](https://www.zsh.org/)
 - [oh-my-zsh](https://ohmyz.sh/)
 
+
+## Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
+
+Following command fixes any errors returned by compaudit.
+
+```bash
+compaudit | xargs chmod g-w,o-w
+```
+
 ## Change Oh My ZSH Theme
 
 The script changes the theme to [ys](https://blog.ysmood.org/my-ys-terminal-theme/).
@@ -34,5 +43,6 @@ chmod +x setupscript.sh
 
 ## Potential Improves
 
+- Move from iTerm2 to modified Terminal layout.
 - Set Launchpad layout.
 - Set Dock layout.
