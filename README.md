@@ -10,6 +10,7 @@ Repository for MacOS setup scripts and notes.
 - [Google Chrome](https://www.google.com/chrome/) 
 - [Postman](https://www.postman.com) 
 - [GIMP](https://www.gimp.org)
+- [duet](https://www.duetdisplay.com)
 
 
 ## Brew Packages 
