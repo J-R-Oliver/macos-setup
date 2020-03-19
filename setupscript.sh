@@ -14,7 +14,6 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install postman 
 brew cask install gimp
-brew cask install duet
 
 # Install Brew Packages
 
