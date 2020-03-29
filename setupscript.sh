@@ -16,6 +16,7 @@ brew cask install postman
 brew cask install gimp
 brew cask install zoomus
 brew cask install discord 
+brew cask install fliqlo
 
 # Install Brew Packages
 
@@ -26,6 +27,12 @@ brew install postgresql
 brew install tree
 brew install zsh zsh-completions 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# brew install http-server
+
+# Tap Casks of drivers and install Logitech Options
+
+brew tap homebrew/cask-drivers
+brew cask install logitech-options
 
 # Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
 # compaudit | xargs chmod g-w,o-w
@@ -39,10 +46,33 @@ sed -i '' 's/plugins=(git)/plugins=(git zsh-autosuggestions)/' ~/.zshrc
 brew install zsh-syntax-highlighting
 echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 
-# 
+# Setup iTerm2
 echo 'Please change the following settings in iTerm \n'
 echo 'iTerm2 -> Preferences -> Profiles -> Window -> Style -> No Title Bar'
 echo 'iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confirm closing multiple sessions [Off]'
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
+# Change macOS Settings
+echo 'Please change the following macOS settings \n'
+echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise'
+echo 'System Preferences -> Desktop & Screen Saver -> Desktop -> Add Documents'
+echo 'System Preferences -> Desktop & Screen Saver -> Screen Saver -> Fliqlo / Start after: 5 Minutes'
+echo 'System Preferences -> Energy Saver -> Battery -> Turn display off after: 30 minutes'
+echo 'System Preferences -> Energy Saver -> Power Adapter -> Turn display off after: 30 minutes'
+echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise'
+echo 'System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac'
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
+# Intall Visual Studio Code Plugins
+
+echo 'Please install the following Visual Studio Code extensions \n'
+echo 'Live Share Extension Pack -> https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-packP{\]}'
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
+# Intall Google Chrome Plugins
+
+echo 'Please install the following Visual Studio Code extensions \n'
+echo 'axe - Web Accessibility Testing -> https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd'
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 # Set git username and email
