@@ -95,7 +95,9 @@ Peacock: Change Live Share Color (Host)
 Peacock: Change Live Share Color (Guest) 
 ```
 
-### NPM server 
+### Bracket Pair Colorizer 2
+
+This extension allows matching brackets to be identified with colours. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2).
 
 ## Google Chrome Plugins
 
