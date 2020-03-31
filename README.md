@@ -115,6 +115,11 @@ Enable sleep: sudo pmset -a disablesleep 0
 
 * Screen sharing is natively built into macOS. To remotely connect to a mac search for *Screen Sharing*  from Spotlight and then enter the Hostname or Apple ID.
 
+* ```code``` command not working? The command can be reinstall from Visual Studio Code. The command, ```code .```, will open VS Code at that file location. To re-install:
+
+```
+Visual Studio Code -> View -> Show Command Palette... ->  Shell Command: Install 'code' command in PATH
+```
 
 ## Potential Improves
 
