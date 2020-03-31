@@ -123,6 +123,10 @@ Enable sleep: sudo pmset -a disablesleep 0
 Visual Studio Code -> View -> Show Command Palette... ->  Shell Command: Install 'code' command in PATH
 ```
 
+## NC HelpDesk
+
+NC HelpDesk is a light node application to create and send helpdesk tickets for help with coursework. To install ```clone``` repository from [here](https://github.com/northcoders/nc-helpdesk) and follow setup instructions in the README.
+
 ## Potential Improves
 
 - Move from iTerm2 to modified Terminal layout.
