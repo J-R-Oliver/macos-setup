@@ -52,6 +52,7 @@ The script changes the theme to [ys](https://blog.ysmood.org/my-ys-terminal-them
 Your unable to change the default settings for iTerm programmatically. The following changes will need done through the GUI.
 
 ```
+iTerm2 -> Preferences -> Appearance -> Windows -> Hide scrollbars
 iTerm2 -> Preferences -> Profiles -> Window -> Style -> No Title Bar
 iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confirm closing multiple sessions [Off]
 ```
@@ -122,6 +123,10 @@ Enable sleep: sudo pmset -a disablesleep 0
 ```
 Visual Studio Code -> View -> Show Command Palette... ->  Shell Command: Install 'code' command in PATH
 ```
+
+## UGREEN: USB3.0 to 1GB Ethernet Adapter 
+
+* Drive can be downloaded from the UGREEN website or installed with `brew cask install ugreen-ax88179-usb-ethernet-driver`.
 
 ## NC HelpDesk
 

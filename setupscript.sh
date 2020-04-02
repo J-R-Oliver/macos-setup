@@ -48,6 +48,7 @@ echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Setup iTerm2
 echo 'Please change the following settings in iTerm \n'
+echo 'iTerm2 -> Preferences -> Appearance -> Windows -> Hide scrollbars'
 echo 'iTerm2 -> Preferences -> Profiles -> Window -> Style -> No Title Bar'
 echo 'iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confirm closing multiple sessions [Off]'
 read -n 1 -r -s -p $'Press enter to continue...\n'
