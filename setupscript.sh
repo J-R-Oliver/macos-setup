@@ -68,6 +68,7 @@ read -n 1 -r -s -p $'Press enter to continue...\n'
 
 echo 'Please install the following Visual Studio Code extensions \n'
 echo 'Live Share Extension Pack -> https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-packP{\]}'
+echo 'jest snippets -> https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets'
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 # Intall Google Chrome Plugins

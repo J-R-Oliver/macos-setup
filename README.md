@@ -100,6 +100,10 @@ Peacock: Change Live Share Color (Guest)
 
 This extension allows matching brackets to be identified with colours. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2).
 
+### Jest Snippets
+
+This extension provides jest snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets).
+
 ## Google Chrome Plugins
 
 ### axe - Web Accessibility Testing
