@@ -68,8 +68,8 @@ iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confi
 System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
 System Preferences -> Desktop & Screen Saver -> Desktop -> Add Documents
 System Preferences -> Desktop & Screen Saver -> Screen Saver -> Fliqlo / Start after: 5 Minutes
-System Preferences -> Energy Saver -> Battery -> Turn display off after: 30 minutes
-System Preferences -> Energy Saver -> Power Adapter -> Turn display off after: 30 minutes
+System Preferences -> Energy Saver -> Battery -> Turn display off after: 1 hour 30 minutes
+System Preferences -> Energy Saver -> Power Adapter -> Turn display off after: 1 hour 30 minutes
 System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
 System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac
 ```
