@@ -81,29 +81,6 @@ The location the script file is [here](setupscript.sh). Before running the scrip
 chmod +x setupscript.sh
 ```
 
-## Visual Studio Code Plugins
-
-### Live Share Extension Pack
-
-This extension pack includes everything to collaboratively edit and debug in real time, including integrated audio and text chat.
-
-Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-packP{\]}). Once installed login using GitHub credentials.
-
-Once a WorkSpace has been created for the repository Visual Studio Code can be set to change colour whilst hosting or viewing a live share.
-
-```
-Peacock: Change Live Share Color (Host) 
-Peacock: Change Live Share Color (Guest) 
-```
-
-### Bracket Pair Colorizer 2
-
-This extension allows matching brackets to be identified with colours. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2).
-
-### Jest Snippets
-
-This extension provides jest snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets).
-
 ## Google Chrome Plugins
 
 ### axe - Web Accessibility Testing
