@@ -37,6 +37,19 @@ This extension launches a local development server with live reload feature for 
 
 This extension provides jest snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets).
 
+#### ES6 Snippets
+
+This extension provides ES6 snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets&ssr=false#review-details).
+
+#### Express Snippets
+
+This extension provides Express snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=vladmrnv.expresssnippet).
+
+#### vscode-icons
+
+Adds an additional icon pack to VS Code. To change the icon: `cmd + p -> > Preferences: File Icon Theme -> VSCode Icons`.
+They can be installed from [here](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons).
+
 #### Prettier - Code formatter
 
 The [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) allows a global or local installation of the Prettier npm package to reformat code without having to run Prettier from the command line. The following settings allow for format on save for specific languages:
