@@ -119,3 +119,5 @@ NC HelpDesk is a light node application to create and send helpdesk tickets for 
 - Set background.
 - Set Launchpad layout.
 - Set Dock layout.
+- Create person ESLint and Prettier initialisation script.
+- Setup VS Code settings sync: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
