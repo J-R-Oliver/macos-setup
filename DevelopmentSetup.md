@@ -31,11 +31,15 @@ This extension colorizes the indentation in front of your text alternating four 
 
 #### Live Server
 
-This extension launches a local development server with live reload feature for static & dynamic pages. . Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+This extension launches a local development server with live reload feature for static & dynamic pages. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+#### Import Cost 
+
+This extension will display inline in the editor the size of the imported package. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 #### Jest Snippets
 
-This extension provides jest snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets).
+This extension provides jest snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost).
 
 #### ES6 Snippets
 
@@ -133,6 +137,70 @@ To change the settings for Prettier create a `.prettierrc.json` file in the root
 }
 ```
 
+#### Rule Sets
+
+**node.js** 
+
+Full guide [here](https://github.com/mysticatea/eslint-plugin-node).
+
+`npm i -D eslint-plugin-node` - Installation
+
+```json
+{
+  "plugins": ["node"] // Add plugin
+}
+{
+  "extends": ["plugin:node/recommended"] // Recommended configuration 
+}
+```
+
+**node.js - Security** 
+
+Full guide [here](https://github.com/nodesecurity/eslint-plugin-security).
+
+`npm i -D eslint-plugin-security` - Installation
+
+```json
+{
+  "plugins": ["security"] // Add plugin
+}
+{
+  "extends": ["plugin:security/recommended"] // Recommended configuration 
+}
+```
+
+**Jest** 
+
+Full guide [here](https://www.npmjs.com/package/eslint-plugin-jest).
+
+`npm i -D eslint-plugin-jest` - Installation
+
+```json
+{
+  "plugins": ["jest"] // Add plugin
+}
+{
+  "extends": ["plugin:jest/recommended"] // Recommended configuration that enforces good testing practices.
+}
+{
+  "extends": ["plugin:jest/style"] // Minimal stylistic rules
+}
+```
+
+**Jest - Formatting**
+
+Full guide [here](https://github.com/dangreenisrael/eslint-plugin-jest-formatting).
+
+`npm i -D eslint-plugin-jest-formatting` - Installation
+
+```json
+{
+  "plugins": ["jest-formatting"] // Add plugin
+}
+{
+  "extends": ["plugin:jest-formatting/recommended"] // Recommended settings
+}
+```
 ## Prettier + ESLint + Airbnb Style Guide
 
 Airbnb produced the first widely availble and comprehensive style guide for JavaScript. It contains many rules on both formatting and implementation. It is availible [here](https://github.com/airbnb/javascript#types).
@@ -152,11 +220,11 @@ A summary of this process:
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"]
-  },
+  }
 }
 ```
 
-5. Create .prettierrc file in your project’s root directory:
+5. Create `.prettierrc.json` file in your project’s root directory:
 
 ```json
 {
