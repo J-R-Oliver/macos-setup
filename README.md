@@ -6,6 +6,7 @@ Repository for MacOS setup scripts and notes.
 - [Brew](https://brew.sh/) 
 - [Virtual Studio Code](https://code.visualstudio.com) 
 - [Azure Studio Code](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-ver15)
+- [Postgres.app](https://postgresapp.com)
 - [Slack](https://slack.com) 
 - [iTerm2](https://iterm2.com)
 - [Google Chrome](https://www.google.com/chrome/) 
@@ -122,3 +123,4 @@ NC HelpDesk is a light node application to create and send helpdesk tickets for 
 - Set Dock layout.
 - Create person ESLint and Prettier initialisation script.
 - Setup VS Code settings sync: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+- Remove PostgreSQL from packages as installation comes from Postgres.app.
