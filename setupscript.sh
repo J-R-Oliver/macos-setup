@@ -9,6 +9,8 @@ brew analytics off
 
 echo 'Installing MacOS applications...'
 brew cask install visual-studio-code
+brew cask install azure-data-studio
+brew cask install postgres
 brew cask install slack 
 brew cask install iterm2 
 brew cask install google-chrome
