@@ -1,5 +1,9 @@
 # Node Packages 
 
+## node-postgres
+
+node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database. More information can be found [here](https://node-postgres.com).
+
 ## Winston 
 
 Winston is designed to be a simple and universal logging library with support for multiple locations. More information can be found [here](https://github.com/winstonjs/winston).
@@ -22,7 +26,15 @@ Inquirer.js strives to be an easily embeddable and beautiful command line interf
 
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity. More information can be found [here](https://jestjs.io).
 
-### Prettier
+## supertest
+
+HTTP assertions made easy via superagent. Great for calling API inside test blocks and returning information for assertions. More information can be found [here](https://www.npmjs.com/package/supertest).
+
+## Husky 
+
+Git hooks made easy@ Husky can prevent bad git commits by automating testing or linting before a commit run. The commit will fail to start if any errors are found. More information can be found [here](https://github.com/typicode/husky).
+
+## Prettier
 
 [Prettier](https://prettier.io) is an opinionated code formatter. It removes all original styling and ensures that all outputted code conforms to a consistent style. 
 
@@ -40,7 +52,7 @@ To change the settings for Prettier create a `.prettierrc.json` file in the root
 }
 ```
 
-### ESLint 
+## ESLint 
 
 ESLint statically analyzes your code to quickly find problems.
 
@@ -60,3 +72,7 @@ ESLint statically analyzes your code to quickly find problems.
     }
 }
 ```
+
+## Prettier Standard
+
+Formats with prettier and lints with eslint preconfigured with standard rules. More information can be found [here](https://github.com/sheerun/prettier-standard). A VS Code extension also exists [here](https://marketplace.visualstudio.com/items?itemName=numso.prettier-standard-vscode).

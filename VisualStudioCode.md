@@ -17,6 +17,10 @@ Peacock: Change Live Share Color (Guest)
 
 The Visual Studio IntelliCode extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode).
 
+### Code Spell Checker
+
+A basic spell checker that works well with camelCase code. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker).
+
 ### Bracket Pair Colorizer 2
 
 This extension allows matching brackets to be identified with colours. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2).
@@ -73,9 +77,12 @@ Integrates ESLint JavaScript into VS Code. This means VS Code will underline err
 {
     "workbench.startupEditor": "readme",
     "editor.minimap.enabled": false,
-    "editor.formatOnSave": false,
     "[javascript]": {
         "editor.formatOnSave": true
-    }
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "cSpell.language": "en-GB"
 }
 ```
