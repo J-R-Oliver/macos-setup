@@ -1,8 +1,16 @@
 # Node Packages 
 
+## Express 
+
+Fast, unopinionated, minimalist web framework for Node.js. More information can be found [here](http://expressjs.com).
+
 ## node-postgres
 
 node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database. More information can be found [here](https://node-postgres.com).
+
+## Knex.js
+
+Knex.js is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use. It as acts as an overlay for node SQL packages such as node-postgres. More information can be found [here](http://knexjs.org).
 
 ## Winston 
 
