@@ -54,6 +54,10 @@ This extension provides Express snippets which can be triggered using the `tab` 
 Adds an additional icon pack to VS Code. To change the icon: `cmd + p -> > Preferences: File Icon Theme -> VSCode Icons`.
 They can be installed from [here](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons).
 
+### dotENV
+
+VS Code Syntax Highlighting support for Environment (.env) Files. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv&wt.mc_id=node-nodecollection-jopapa).
+
 ### Prettier - Code formatter
 
 The [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) allows a global or local installation of the Prettier npm package to reformat code without having to run Prettier from the command line. The following settings allow for format on save for specific languages:
