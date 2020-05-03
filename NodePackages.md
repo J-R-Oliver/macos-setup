@@ -16,9 +16,21 @@ Knex.js is a "batteries included" SQL query builder for Postgres, MSSQL, MySQL, 
 
 Winston is designed to be a simple and universal logging library with support for multiple locations. More information can be found [here](https://github.com/winstonjs/winston).
 
+## express-winston
+
+winston middleware for express.js. More information can be found [here](https://www.npmjs.com/package/express-winston).
+
+## Postgres Transport for Winston
+
+The winston-postgres module allows you to log your winston messages to a postgresql db. More information can be found [here](https://www.npmjs.com/package/winston-postgres).
+
 ## EJS 
 
 EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. More information can be found [here](https://ejs.co).
+
+## Passport
+
+Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more. More information can be found [here](http://www.passportjs.org).
 
 ## Inquirer.js
 
@@ -34,6 +46,10 @@ Inquirer.js strives to be an easily embeddable and beautiful command line interf
 
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity. More information can be found [here](https://jestjs.io).
 
+## Jest Sorted
+
+Inspired by chai sorted and jest-extended. This packages extends jest.expect with 2 custom matchers, toBeSorted and toBeSortedBy. More information can be found [here](https://www.npmjs.com/package/jest-sorted).
+
 ## supertest
 
 HTTP assertions made easy via superagent. Great for calling API inside test blocks and returning information for assertions. More information can be found [here](https://www.npmjs.com/package/supertest).
@@ -41,6 +57,15 @@ HTTP assertions made easy via superagent. Great for calling API inside test bloc
 ## Husky 
 
 Git hooks made easy@ Husky can prevent bad git commits by automating testing or linting before a commit run. The commit will fail to start if any errors are found. More information can be found [here](https://github.com/typicode/husky).
+
+## dotenv
+
+Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. More information can be found [here](https://www.npmjs.com/package/dotenv).
+
+## Custom-Env
+
+Custom env is a library built to make development more feasible by allowing multiple .env configurations for different environments. This is done by loading environment variables from a .env.envname file, into the node's process.env object. More information can be found [here](https://www.npmjs.com/package/custom-env).
+
 
 ## Prettier
 
