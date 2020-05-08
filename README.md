@@ -49,6 +49,15 @@ compaudit | xargs chmod g-w,o-w
 
 The script changes the theme to [ys](https://blog.ysmood.org/my-ys-terminal-theme/).
 
+## Add Profile To Terminal And Set As Default
+
+The following changes will need done through the GUI.
+
+```
+Terminal -> Preferences -> Profiles -> Cog -> Import
+Terminal -> Preferences -> Profiles -> Cog -> Default (James)
+```
+
 ## Change iTerm Settings
 
 Your unable to change the default settings for iTerm programmatically. The following changes will need done through the GUI.

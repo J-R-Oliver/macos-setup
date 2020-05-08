@@ -74,6 +74,15 @@ Full guide [here](https://github.com/dangreenisrael/eslint-plugin-jest-formattin
 
 Enforce best practices for JavaScript promises. More information [here](https://www.npmjs.com/package/eslint-plugin-promise).
 
+```json
+{
+  "plugins": ["promise"] // Add plugin
+}
+{
+  "extends": ["plugin:promise/recommended"] // Recommended settings
+}
+```
+
 **Standard - Config**
 
 Extends, configures the ESLint rules, to match those in *Standard*. More information [here](https://github.com/standard/eslint-config-standard).

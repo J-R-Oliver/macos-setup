@@ -48,6 +48,12 @@ sed -i '' 's/plugins=(git)/plugins=(git zsh-autosuggestions)/' ~/.zshrc
 brew install zsh-syntax-highlighting
 echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 
+# Setup Terminal
+echo 'Please change the following settings in Terminal \n'
+echo 'Terminal -> Preferences -> Profiles -> Cog -> Import'
+echo 'Terminal -> Preferences -> Profiles -> Cog -> Default (James)'
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
 # Setup iTerm2
 echo 'Please change the following settings in iTerm \n'
 echo 'iTerm2 -> Preferences -> Appearance -> Windows -> Hide scrollbars'
