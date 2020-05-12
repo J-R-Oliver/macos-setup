@@ -78,6 +78,12 @@ echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunri
 echo 'System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac'
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
+# Change Clipy Settings
+echo 'Please change the following macOS settings \n'
+echo 'Clipy -> Preferences -> Appearance -> Status Bar icon style -> <inverted>'
+
+read -n 1 -r -s -p $'Press enter to continue...\n'
+
 # Intall Visual Studio Code Plugins NEEDS UPDATING
 
 echo 'Please install the following Visual Studio Code extensions \n'
