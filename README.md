@@ -15,6 +15,7 @@ Repository for MacOS setup scripts and notes.
 - [zoom.us](https://zoom.us)
 - [Discord](https://discordapp.com)
 - [fliqlo](https://fliqlo.com)
+- [Clipy](https://clipy-app.com)
 - [Logitech Options](https://www.logitech.com/en-us/product/options)
 
 ## Brew Packages 
@@ -22,6 +23,7 @@ Repository for MacOS setup scripts and notes.
 - [Git](https://git-scm.com) 
 - [Node](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - [Tree](http://mama.indstate.edu/users/ice/tree/)
 - [zsh](https://www.zsh.org/)
 - [oh-my-zsh](https://ohmyz.sh/)
@@ -34,7 +36,7 @@ Repository for MacOS setup scripts and notes.
 ## ZSH Plugins
 
 - [Oh My Zsh Auto suggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
-- [ZSH Syntax Highlighting](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961)
+- [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 
 ## Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'

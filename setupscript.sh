@@ -19,6 +19,7 @@ brew cask install gimp
 brew cask install zoomus
 brew cask install discord 
 brew cask install fliqlo
+brew cask install clipy
 
 # Install Brew Packages
 
@@ -35,6 +36,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 brew tap homebrew/cask-drivers
 brew cask install logitech-options
+
+# Tap Casks Heroku and install Heroku CLI tools
+
+brew tap heroku/brew
+brew install heroku
 
 # Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
 # compaudit | xargs chmod g-w,o-w
