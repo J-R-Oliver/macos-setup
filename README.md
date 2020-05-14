@@ -1,16 +1,17 @@
 # MacOSSetup
+
 Repository for MacOS setup scripts and notes.
 
 ## MacOS Applications
- 
-- [Brew](https://brew.sh/) 
-- [Virtual Studio Code](https://code.visualstudio.com) 
+
+- [Brew](https://brew.sh/)
+- [Virtual Studio Code](https://code.visualstudio.com)
 - [Azure Studio Code](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-ver15)
 - [Postgres.app](https://postgresapp.com)
-- [Slack](https://slack.com) 
+- [Slack](https://slack.com)
 - [iTerm2](https://iterm2.com)
-- [Google Chrome](https://www.google.com/chrome/) 
-- [Postman](https://www.postman.com) 
+- [Google Chrome](https://www.google.com/chrome/)
+- [Postman](https://www.postman.com)
 - [GIMP](https://www.gimp.org)
 - [zoom.us](https://zoom.us)
 - [Discord](https://discordapp.com)
@@ -18,9 +19,9 @@ Repository for MacOS setup scripts and notes.
 - [Clipy](https://clipy-app.com)
 - [Logitech Options](https://www.logitech.com/en-us/product/options)
 
-## Brew Packages 
+## Brew Packages
 
-- [Git](https://git-scm.com) 
+- [Git](https://git-scm.com)
 - [Node](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
@@ -35,9 +36,8 @@ Repository for MacOS setup scripts and notes.
 
 ## ZSH Plugins
 
-- [Oh My Zsh Auto suggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+- [Oh My Zsh Auto suggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-
 
 ## Fix for '[oh-my-zsh] Insecure completion-dependent directories detected'
 
@@ -72,10 +72,10 @@ iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confi
 
 ## Change macOS Settings
 
-* Set Dekstop Background (Background heic file is storage inside the Documents folder and synced through iCloud).
-* Enable Fliqlo screen saver, and set dispaly and sleep settings.
-* Enable Night Shift.
-* Enable Apple Watch unlock.
+- Set Dekstop Background (Background heic file is storage inside the Documents folder and synced through iCloud).
+- Enable Fliqlo screen saver, and set dispaly and sleep settings.
+- Enable Night Shift.
+- Enable Apple Watch unlock.
 
 ```
 System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
@@ -89,7 +89,8 @@ System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps 
 
 ## Executing Script
 
-The location the script file is [here](setupscript.sh). Before running the script the permissions will need to be changed to make it executable. 
+The location the script file is [here](setupscript.sh). Before running the script the permissions will need to be changed to make it executable.
+
 ```bash
 chmod +x setupscript.sh
 ```
@@ -102,7 +103,7 @@ Accessibility Checker for Developers in Chrome. Install plugin from [here](https
 
 ## macOS Notes
 
-* macOS will automatically put the computer to sleep when the device is not powered. The following commands will change this. **Please note** that disalbing sleep will keep the laptop running even when no external display or device is connected. 
+- macOS will automatically put the computer to sleep when the device is not powered. The following commands will change this. **Please note** that disalbing sleep will keep the laptop running even when no external display or device is connected.
 
 ```
 Display global power settings: pmset -g
@@ -110,21 +111,21 @@ Disable sleep: sudo pmset -a disablesleep 1
 Enable sleep: sudo pmset -a disablesleep 0
 ```
 
-* Screen sharing is natively built into macOS. To remotely connect to a mac search for *Screen Sharing*  from Spotlight and then enter the Hostname or Apple ID.
+- Screen sharing is natively built into macOS. To remotely connect to a mac search for _Screen Sharing_ from Spotlight and then enter the Hostname or Apple ID.
 
-* ```code``` command not working? The command can be reinstall from Visual Studio Code. The command, ```code .```, will open VS Code at that file location. To re-install:
+- `code` command not working? The command can be reinstall from Visual Studio Code. The command, `code .`, will open VS Code at that file location. To re-install:
 
 ```
 Visual Studio Code -> View -> Show Command Palette... ->  Shell Command: Install 'code' command in PATH
 ```
 
-## UGREEN: USB3.0 to 1GB Ethernet Adapter 
+## UGREEN: USB3.0 to 1GB Ethernet Adapter
 
-* Drive can be downloaded from the UGREEN website or installed with `brew cask install ugreen-ax88179-usb-ethernet-driver`.
+- Drive can be downloaded from the UGREEN website or installed with `brew cask install ugreen-ax88179-usb-ethernet-driver`.
 
 ## NC HelpDesk
 
-NC HelpDesk is a light node application to create and send helpdesk tickets for help with coursework. To install ```clone``` repository from [here](https://github.com/northcoders/nc-helpdesk) and follow setup instructions in the README.
+NC HelpDesk is a light node application to create and send helpdesk tickets for help with coursework. To install `clone` repository from [here](https://github.com/northcoders/nc-helpdesk) and follow setup instructions in the README.
 
 ## Potential Improves
 

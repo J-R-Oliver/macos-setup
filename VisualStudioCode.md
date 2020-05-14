@@ -4,13 +4,13 @@
 
 ### Live Share Extension Pack
 
-This extension pack includes everything to collaboratively edit and debug in real time, including integrated audio and text chat. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-packP{\]}).
+This extension pack includes everything to collaboratively edit and debug in real time, including integrated audio and text chat. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-packP{]}).
 
 nce installed login using GitHub credentials. If a WorkSpace has been created for the repository Visual Studio Code can be set to change colour whilst hosting or viewing a live share.
 
 ```
-Peacock: Change Live Share Color (Host) 
-Peacock: Change Live Share Color (Guest) 
+Peacock: Change Live Share Color (Host)
+Peacock: Change Live Share Color (Guest)
 ```
 
 ### Visual Studio IntelliCode
@@ -33,7 +33,7 @@ This extension colorizes the indentation in front of your text alternating four 
 
 This extension launches a local development server with live reload feature for static & dynamic pages. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-### Import Cost 
+### Import Cost
 
 This extension will display inline in the editor the size of the imported package. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
@@ -75,18 +75,19 @@ The [Prettier Plugin](https://marketplace.visualstudio.com/items?itemName=esbenp
 
 Integrates ESLint JavaScript into VS Code. This means VS Code will underline errors or warning brough back by ESLint in real time. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
-### Settings 
+### Settings
 
 ```json
 {
-    "workbench.startupEditor": "readme",
-    "editor.minimap.enabled": false,
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.iconTheme": "vscode-icons",
-    "cSpell.language": "en-GB"
+  "workbench.startupEditor": "readme",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vscode-icons",
+  "cSpell.language": "en-GB",
+  "window.zoomLevel": 0,
+  "cSpell.userWords": ["dont", "unamended"]
 }
 ```
