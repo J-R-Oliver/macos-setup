@@ -94,6 +94,7 @@ read -n 1 -r -s -p $'Press enter to continue...\n'
 
 echo 'Please install the following Visual Studio Code extensions \n'
 echo 'axe - Web Accessibility Testing -> https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd'
+echo 'React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi'
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 # Set git username and email

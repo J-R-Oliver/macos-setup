@@ -78,13 +78,13 @@ iTerm2 -> Preferences -> General -> Closing -> Confirm Quit iTerm2 [Off] / Confi
 - Enable Apple Watch unlock.
 
 ```
-System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
-System Preferences -> Desktop & Screen Saver -> Desktop -> Add Documents
+System Preferences -> General -> Dark
+System Preferences -> Desktop & Screen Saver -> Apple -> Desktop Pictures -> Dynamic Desktop -> Sand Bank
 System Preferences -> Desktop & Screen Saver -> Screen Saver -> Fliqlo / Start after: 5 Minutes
+System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac
+System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
 System Preferences -> Energy Saver -> Battery -> Turn display off after: 1 hour 30 minutes
 System Preferences -> Energy Saver -> Power Adapter -> Turn display off after: 1 hour 30 minutes
-System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise
-System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac
 ```
 
 ## Executing Script
@@ -100,6 +100,14 @@ chmod +x setupscript.sh
 ### axe - Web Accessibility Testing
 
 Accessibility Checker for Developers in Chrome. Install plugin from [here](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd).
+
+### React Developer Tools
+
+Adds React debugging tools to the Chrome Developer Tools. Install plugin from [here](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi).
+
+### 30 Seconds of Knowledge
+
+Adds random code snippets each time you open a new tab. Install plugin from [here](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla).
 
 ## macOS Notes
 

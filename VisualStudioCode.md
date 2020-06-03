@@ -17,6 +17,25 @@ Peacock: Change Live Share Color (Guest)
 
 The Visual Studio IntelliCode extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode).
 
+### Vscode Style Components
+
+Syntax highlighting and IntelliSense for styled-components. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components).
+
+### stylelint
+
+A Visual Studio Code extension to lint CSS/SCSS/Less with stylelint. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint).
+
+The following settings disable in the inbuilt css linter and enable format on save.
+
+```json
+"css.validate": false,
+"less.validate": false,
+"scss.validate": false,
+"editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
+```
+
 ### Code Spell Checker
 
 A basic spell checker that works well with camelCase code. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker).
@@ -48,6 +67,10 @@ This extension provides ES6 snippets which can be triggered using the `tab` key.
 ### Express Snippets
 
 This extension provides Express snippets which can be triggered using the `tab` key. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=vladmrnv.expresssnippet).
+
+### Reactjs code snippets
+
+This extension contains code snippets for Reactjs and is based on the awesome babel-sublime-snippets package. Plugin can be installed from [here](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets).
 
 ### vscode-icons
 
@@ -88,6 +111,9 @@ Integrates ESLint JavaScript into VS Code. This means VS Code will underline err
   "workbench.iconTheme": "vscode-icons",
   "cSpell.language": "en-GB",
   "window.zoomLevel": 0,
-  "cSpell.userWords": ["dont", "unamended"]
+  "cSpell.userWords": ["dont", "setup", "unamended"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
 }
 ```
