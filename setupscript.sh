@@ -68,8 +68,6 @@ echo 'Preferences -> General -> Show in Dock -> off'
 echo 'Preferences -> General -> Show timer in Status bar'
 echo 'Preferences -> General -> Show timer in Status bar -> HH:MM'
 echo 'Preferences -> General -> Show project in Status bar'
-echo 'Preferences -> Timer -> Pomodoro timer'
-echo 'Preferences -> Timer -> Pomodoro break'
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 # Intall Visual Studio Code Plugins 
