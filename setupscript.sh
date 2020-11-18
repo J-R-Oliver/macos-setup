@@ -87,6 +87,6 @@ git config --global user.email "${emailvar}"
 
 # Generate SSH keys for GitHub
 echo 'Creating SSH keys for GitHub...'
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 echo 'Copy key into https://github.com/settings/keys'
