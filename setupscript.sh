@@ -8,13 +8,13 @@ echo 'Installing MacOS applications...'
 brew cask install visual-studio-code
 brew cask install azure-data-studio
 brew cask install docker
-brew cask install slack 
 brew cask install google-chrome
 brew cask install postman 
 brew cask install zoomus
-brew cask install discord 
-brew cask install clipy
+brew cask install discord
+brew cask install slack
 brew cask install clockify
+brew cask install clipy
 
 echo 'Installing Brew packages...'
 brew install git

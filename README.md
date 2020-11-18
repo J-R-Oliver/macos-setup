@@ -16,7 +16,7 @@ You can then execute the script with the following command.
 bash setupscript.sh
 ```
 
-__Please Note:__ Running the script with `sudo` will cause the script to fail. This is due to HomeBrew installing packages into `/usr/local`. 
+**Please Note:** Running the script with `sudo` will cause the script to fail. This is due to HomeBrew installing packages into `/usr/local`.
 
 ## MacOS Applications
 
@@ -24,13 +24,13 @@ __Please Note:__ Running the script with `sudo` will cause the script to fail. T
 - [Virtual Studio Code](https://code.visualstudio.com)
 - [Azure Studio Code](https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-ver15)
 - [Docker](https://www.docker.com)
-- [Slack](https://slack.com)
 - [Google Chrome](https://www.google.com/chrome/)
 - [Postman](https://www.postman.com)
 - [zoom.us](https://zoom.us)
 - [Discord](https://discordapp.com)
-- [Clipy](https://clipy-app.com)
+- [Slack](https://slack.com)
 - [Clockify](https://clockify.me/mac-time-tracking)
+- [Clipy](https://clipy-app.com)
 - [Logitech Options](https://www.logitech.com/en-us/product/options)
 
 ## Brew Packages
