@@ -75,8 +75,8 @@ read -n 1 -r -s -p $"${italic}Press enter to continue..."
 
 # Set git username and email
 echo "\n${bold}Setting up git...\n"
-read -p 'Please enter a global username: ' uservar
-read -p 'Please enter a global email: ' emailvar
+read -r -p 'Please enter a global username: ' uservar
+read -r -p 'Please enter a global email: ' emailvar
 
 git config --global user.name "${uservar}"
 git config --global user.email "${emailvar}"
