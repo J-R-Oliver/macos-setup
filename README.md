@@ -10,6 +10,14 @@ Before running the script the permissions will need to be changed to make it exe
 chmod +x setupscript.sh
 ```
 
+You can then execute the script with the following command.
+
+```bash
+bash setupscript.sh
+```
+
+__Please Note:__ Running the script with `sudo` will cause the script to fail. This is due to HomeBrew installing packages into `/usr/local`. 
+
 ## MacOS Applications
 
 - [Brew](https://brew.sh/)
