@@ -13,7 +13,6 @@ brew cask install google-chrome
 brew cask install postman 
 brew cask install zoomus
 brew cask install discord 
-brew cask install fliqlo
 brew cask install clipy
 brew cask install clockify
 
@@ -47,10 +46,6 @@ read -n 1 -r -s -p $'Press enter to continue...\n'
 
 # Change macOS Settings
 echo 'Please change the following macOS settings \n'
-echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise'
-echo 'System Preferences -> Desktop & Screen Saver -> Screen Saver -> Fliqlo / Start after: 5 Minutes'
-echo 'System Preferences -> Energy Saver -> Battery -> Turn display off after: 1 hour 30 minutes'
-echo 'System Preferences -> Energy Saver -> Power Adapter -> Turn display off after: 1 hour 30 minutes'
 echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunrise'
 echo 'System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac'
 read -n 1 -r -s -p $'Press enter to continue...\n'
