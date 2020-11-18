@@ -21,7 +21,6 @@ chmod +x setupscript.sh
 - [Postman](https://www.postman.com)
 - [zoom.us](https://zoom.us)
 - [Discord](https://discordapp.com)
-- [fliqlo](https://fliqlo.com)
 - [Clipy](https://clipy-app.com)
 - [Clockify](https://clockify.me/mac-time-tracking)
 - [Logitech Options](https://www.logitech.com/en-us/product/options)
