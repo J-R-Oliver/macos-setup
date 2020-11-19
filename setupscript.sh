@@ -50,6 +50,11 @@ echo 'System Preferences -> Displays -> Night Shift -> Schedule: Sunset to Sunri
 echo 'System Preferences -> Security & Privacy -> Use your Apple Watch to unlock apps and your Mac'
 read -n 1 -r -s -p $"${italic}Press enter to continue..."
 
+# Change Docker Settings
+echo "\n${bold}Please change the following Docker settings\n"
+echo 'Preferences -> General -> Start Docker Desktop when you log in'
+read -n 1 -r -s -p $"${italic}Press enter to continue..."
+
 # Change Clockify Settings
 echo "\n${bold}Please change the following Clockify settings\n"
 echo 'Preferences -> General -> Show in Dock -> off'
